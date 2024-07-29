@@ -90,7 +90,7 @@ export default {
                 text-transform: uppercase;
 
                 &:hover {
-                    font-weight: 100;
+                    font-weight: 500;
                 }
             }
         }

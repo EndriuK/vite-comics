@@ -60,7 +60,7 @@ export default {
 </template>
 <style lang="scss" scoped>
     .bg-blue {
-        background-color: blue;
+        background-color:#0282F9;
         color: #fff;
     }
     .bg-black {

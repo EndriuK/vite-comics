@@ -8,7 +8,7 @@ export default {
         <div class="bg-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class=" col-sm">
                         <h3 class="my-4">dc comics</h3>
                         <ul class="list-unstyled">
                             <li>Characters</li>
@@ -19,8 +19,13 @@ export default {
                             <li>Videos</li>
                             <li>News</li>
                         </ul>
+                        <h3 class="my-4">shop</h3>
+                        <ul class="list-unstyled">
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
+                        </ul>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class=" col-sm">
                         <h3 class="my-4">dc</h3>
                         <ul class="list-unstyled">
                             <li>Terms Of Use</li>
@@ -36,6 +41,17 @@ export default {
                             <li>Contact us</li>
                         </ul>
                     </div>
+                    <div class="col-sm">
+                        <h3 class="my-4">sites</h3>
+                        <ul class="list-unstyled">
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
+                        </ul>
+                    </div>
+                    
                     <div class="col-12 col-md-4">
                         <a href="/">
                             <img src="../assets/img/dc-logo-bg.png" class="logo-footer " alt="dc logo">
