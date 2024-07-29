@@ -5,10 +5,10 @@ export default {
 </script>
 <template lang="">
     <footer>
-        <div class="bg-footer ">
+        <div class="bg-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <h3 class="my-4">dc comics</h3>
                         <ul class="list-unstyled">
                             <li>Characters</li>
@@ -20,7 +20,7 @@ export default {
                             <li>News</li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <h3 class="my-4">dc comics</h3>
                         <ul class="list-unstyled">
                             <li>Characters</li>
@@ -32,8 +32,10 @@ export default {
                             <li>News</li>
                         </ul>
                     </div>
-                    <div class="col-4">
-                        
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <img src="../assets/img/dc-logo-bg.png" class="logo-footer " alt="dc logo">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -43,8 +45,9 @@ export default {
 </template>
 <style lang="scss" scoped>
 
-    .bg-footer {
+    footer {
         background-image: url(../assets/img/footer-bg.jpg);
+        background-size: cover;
     }
 
     h3 {
