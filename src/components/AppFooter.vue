@@ -39,6 +39,15 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="bg-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button">Click Me!</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
             
         </div>
     </footer>
@@ -57,5 +66,9 @@ export default {
     
     li {
         color: rgb(168, 167, 167);
+    }
+
+    .bg-gray {
+        background-color: gray;
     }
 </style>
