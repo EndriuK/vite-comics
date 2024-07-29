@@ -21,15 +21,19 @@ export default {
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
-                        <h3 class="my-4">dc comics</h3>
+                        <h3 class="my-4">dc</h3>
                         <ul class="list-unstyled">
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>TV</li>
-                            <li>Games</li>
-                            <li>Videos</li>
-                            <li>News</li>
+                            <li>Terms Of Use</li>
+                            <li>Privacy policy (New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact us</li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
@@ -40,16 +44,6 @@ export default {
                 </div>
             </div>
             <div class="bg-gray ">
-                <!-- <div class="container d-flex flex-end">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <button type="button" class="btn btn-outline-primary my-5">sign-up now!</button>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <button type="button" class="btn btn-outline-primary my-5">sign-up now!</button>
-                    </div>
-                </div> -->
                 <div class="container ">
                     <div class="row">
                       <div class="col-sm ">
