@@ -39,14 +39,45 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="bg-gray">
-                <div class="container">
+            <div class="bg-gray ">
+                <!-- <div class="container d-flex flex-end">
                     <div class="row">
-                        <div class="col-12">
-                            <button type="button">Click Me!</button> 
+                        <div class="col-12 col-md-4">
+                            <button type="button" class="btn btn-outline-primary my-5">sign-up now!</button>
                         </div>
                     </div>
-                </div>
+                    <div class="col-12 col-md-4">
+                        <button type="button" class="btn btn-outline-primary my-5">sign-up now!</button>
+                    </div>
+                </div> -->
+                <div class="container ">
+                    <div class="row">
+                      <div class="col-sm ">
+                        <button type="button" class="btn btn-outline-primary my-5">sign-up now!</button>
+                      </div>
+                      <div class="col-sm">
+                        
+                      </div>
+                      <div class="col-sm my-5">
+                        <span class="mx-3">follow us</span>
+                        <a href="/">
+                            <img src="../assets/img/footer-facebook.png" class="logo-footer " alt="dc logo">
+                        </a>
+                        <a href="/">
+                            <img src="../assets/img/footer-twitter.png" class="logo-footer " alt="dc logo">
+                        </a>
+                        <a href="/">
+                            <img src="../assets/img/footer-youtube.png" class="logo-footer " alt="dc logo">
+                        </a>
+                        <a href="/">
+                            <img src="../assets/img/footer-pinterest.png" class="logo-footer " alt="dc logo">
+                        </a>
+                        <a href="/">
+                            <img src="../assets/img/footer-periscope.png" class="logo-footer " alt="dc logo">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
             </div>
             
         </div>
@@ -69,6 +100,22 @@ export default {
     }
 
     .bg-gray {
-        background-color: gray;
+        background-color: rgb(71, 71, 71);
+    }
+
+    button {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    a {
+        margin: 5px;
+    }
+
+    span {
+        color: #0282F3;
+        text-transform: uppercase;
+        font-weight: 400;
+        
     }
 </style>
