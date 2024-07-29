@@ -19,8 +19,12 @@ export default {
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <ul>
-                            <li></li>
+                        <ul class="list-unstyled mt-5 justify-content-center d-flex">
+                            <li>digital comics</li>
+                            <li>dc merchandise</li>
+                            <li>subscription</li>
+                            <li>comic shop locator</li>
+                            <li>dc powers visa</li>
                         </ul>
                     </div>
                 </div>
@@ -36,5 +40,10 @@ export default {
     }
     .bg-black {
         color: #fff;
+    }
+    ul {
+        li{
+            padding:20px 15px;
+        }
     }
 </style>
