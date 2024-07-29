@@ -61,20 +61,20 @@ export default {
 <template lang="">
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-12 my-3">
-                    <img src="../assets/img/dc-logo.png" />
-                </div>
-                <div class="col-12 d-flex flex-row-reverse">
-                    <ul class="list-unstyled mt-5 justify-content-center d-flex">
-                        <li v-for="link, index in links" :key="index" :class="link.current ? 'active' : ''">
-                            <a href="link.url">{{link.label}}</a>
-                        </li>
-                        
-                    </ul>
-                </div>
+           <div class="row no-gutters">
+            <div class="col-12 col-sm-6 col-md-8">
+                <img src="../assets/img/dc-logo.png" class="my-3" />
             </div>
+            <div class="col-6 col-md-4">
+                <ul class="list-unstyled mt-5 justify-content-center d-flex">
+                    <li v-for="link, index in links" :key="index" :class="link.current ? 'active' : ''">
+                        <a href="link.url">{{link.label}}</a>
+                    </li>
+                </ul>
+            </div>
+          </div> 
         </div>
+        
          
     </header>
 </template>
