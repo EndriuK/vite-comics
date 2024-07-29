@@ -30,5 +30,14 @@ export default {
     </header>
 </template>
 <style lang="scss">
-    
+    ul {
+        li{
+            padding:20px 15px;
+
+            &:nth-child(2) {
+                color: blue
+            }
+
+        };
+    }
 </style>
