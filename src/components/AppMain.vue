@@ -1,6 +1,12 @@
 <script>
+
+import covers from '../data/covers'
 export default {
-    
+    data() {
+        return {
+            covers
+        }
+    }
 }
 </script>
 <template lang="">
@@ -22,7 +28,7 @@ export default {
                         <ul class="list-unstyled mt-5 justify-content-center d-flex">
                             <li>
                                 <a href="/">
-                                    <img src="../assets/img/buy-comics-digital-comics.png">
+                                    <img src="../assets/img/buy-comics-digital-comics.png" >
                                 </a>
                                 <span>digital comics</span>
                             </li>
@@ -75,5 +81,9 @@ export default {
             margin-left: 10px;
             text-transform: uppercase;
         }
+    }
+
+    span {
+        font-size: 15px;
     }
 </style>
