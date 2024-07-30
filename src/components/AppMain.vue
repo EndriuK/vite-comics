@@ -1,7 +1,12 @@
 <script>
 
 import covers from '../data/covers'
+import ProductCard from './ProductCard.vue';
+
 export default {
+    components: {
+        ProductCard
+    },
     data() {
         return {
             covers
@@ -15,14 +20,15 @@ export default {
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1>-->il contenuto va qui<--</h1>
+                        <h1>-->il contenuto va qui<--</h1>   
                     </div>
-                    <div class="col-12 col-md-2" v-for="cover, index in covers" :key="`p-${index}`" >
-                        <div class="bg-light p-2 m-3">
-                            <img class="img-fluid" :src="covers" alt="">
-                            {{covers}}<br>
+                    <ProductCard v-for="cover, index in covers" :key="`p-${index}`" :pathImage="cover.thumb" :title="cover.series" />
+                    <!-- <div class="col-12 col-md-2" v-for="cover, index in covers" :key="`p-${index}`" >
+                        <div class="p-2 m-3">
+                            <img class="img-fluid" :src="cover.thumb" alt="">
+                            <h4 class="text-center">{{cover.series}}</h4>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
