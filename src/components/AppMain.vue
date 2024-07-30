@@ -17,6 +17,12 @@ export default {
                     <div class="col-12">
                         <h1>-->il contenuto va qui<--</h1>
                     </div>
+                    <div class="col-12 col-md-2" v-for="cover, index in covers" :key="`p-${index}`" >
+                        <div class="bg-light p-2 m-3">
+                            <img class="img-fluid" :src="covers" alt="">
+                            {{covers}}<br>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
