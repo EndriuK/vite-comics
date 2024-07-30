@@ -22,7 +22,7 @@ export default {
                     <div class="col-12">
                         <h1>-->il contenuto va qui<--</h1>   
                     </div>
-                    <ProductCard v-for="cover, index in covers" :key="`p-${index}`" :pathImage="cover.thumb" :title="cover.series" />
+                    <ProductCard v-for="cover, index in covers" :key="`p-${index}`" :cardData="cover"  />
                     <!-- <div class="col-12 col-md-2" v-for="cover, index in covers" :key="`p-${index}`" >
                         <div class="p-2 m-3">
                             <img class="img-fluid" :src="cover.thumb" alt="">

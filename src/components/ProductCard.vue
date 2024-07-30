@@ -1,16 +1,15 @@
 <script>
 export default {
     props:{
-        pathImage: String,
-        title: String 
+        cardData: Object, 
     }
 }
 </script>
 <template lang="">
     <div class="col-12 col-md-2">
         <div class="p-2 m-3">
-            <img class="img-fluid" :src="pathImage" alt="title">
-            <h4 class="text-center">{{ series }}</h4>
+            <img class="img-fluid" :src="cardData.thumb" alt="cardData.thumb">
+            <h4 class="text-center">{{ cardData.series }}</h4>
         </div>
     </div>
 </template>
